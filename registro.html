@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+	<title>Contacto</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<!--Icono-->
+	<link rel="shortcut icon" type="text/css" href="icono.png">
+</head>
+<body>
+	
+<!--MENÚ-->
+	<header id="main-header">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="registro.html">Contacto</a></li>
+                    <li><a href="consulta.php">Ver contactos</a></li>
+                </ul>
+            </nav>
+    </header>
+
+<!--INICIO Y BIENVENIDA-->
+    <div class="Formularios">
+    	<h1>FORMULARIO DE CONTACTO</h1>
+    	   <br>
+    	<h2>Por favor ingresa tus datos</h2>
+        	
+            <!--Formulario para ingresar datos-->
+            <form method="POST" action="registro.php">
+
+                <div>
+                    <label>Nombre</label><br>
+                    <input type="text" name="Nombre" placeholder="Nombre" required="">
+                </div>
+
+                <br>
+
+                <div align="center">
+                    <label>Apellidos</label><br>
+                    <input type="text" name="Apellidos" placeholder="Apellidos" required="">
+                </div>
+
+                <br>
+
+                <div align="center">
+                    <label>Email</label><br>
+                    <input type="email" name="Email" placeholder="Email" required="">
+                </div>
+
+                <br>
+
+                <div align="center">
+                    <label>Asunto</label><br>
+                    <input type="text" name="Asunto" placeholder="Asunto" required="">
+                </div>
+
+                <br>
+
+                <div align="center">
+                    <label>Mensaje</label><br>
+                    <textarea name="Mensaje" rows="10" cols="20" placeholder="Mensaje" maxlength="150" required=""></textarea>
+                </div>
+                
+                <br>
+
+                <div align="center">
+                    <input id="registro" type="submit" value="Registrar" name="Registrar"/>
+                
+                </div>
+            </form>
+
+    </div>
+
+<br><br><br>
+
+<!--FOOTER-->
+    <footer>
+        <a href="https://linktr.ee/yen_hzu" target="_blank">
+            <p>Desarrollado por Yenifer Hzu</p>
+        </a>
+    </footer>
+
+</body>
+</html>
